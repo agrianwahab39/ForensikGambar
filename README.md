@@ -18,7 +18,7 @@ klasifikasi berbasis pembelajaran mesin.
   Random Forest, SVM, dan simulasi Neural Network.
 - **Ekspor Hasil** ke PNG, PDF, dan DOCX serta paket komprehensif.
 - **Manajemen Riwayat** – penyimpanan ringkasan analisis beserta thumbnail.
-- **Dukungan Video** melalui modul `ForensikVideo` dan dashboard Streamlit.
+
 
 ## Instalasi
 
@@ -57,15 +57,6 @@ Opsi tambahan:
 - `--export-report` – hanya mengekspor laporan DOCX.
 
 Hasil analisis akan disimpan di folder yang ditentukan.
-
-### Analisis Video
-
-Modul `ForensikVideo.py` menyediakan pipeline lima tahap untuk mendeteksi
-manipulasi video. Contoh pemanggilan:
-
-```bash
-python ForensikVideo.py -i video.mp4 -o ./hasil_video
-```
 
 ### Dashboard Streamlit
 
